@@ -50,5 +50,9 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*"
+    },
+    "provide": {
+        "pear/HTML_QuickForm": "3.2.14"
     }
+
 }
