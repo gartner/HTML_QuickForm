@@ -55,6 +55,7 @@
         "phpunit/phpunit": "*"
     },
     "provide": {
+        "pear-pear.php.net/HTML_QuickForm": "3.2.14",
         "pear/HTML_QuickForm": "3.2.14"
     }
 
