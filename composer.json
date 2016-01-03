@@ -55,7 +55,7 @@
         "phpunit/phpunit": "*"
     },
     "replace": {
-        "pear-pear/HTML_QuickForm": "3.2.14"
+        "pear-pear.php.net/HTML_QuickForm": "3.2.14"
     }
 
 }
