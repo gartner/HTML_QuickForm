@@ -36,6 +36,9 @@
             "./"
         ]
     },
+    "include-path": [
+        "./"
+    ],
     "description": "More info available on: http://pear.php.net/package/HTML_QuickForm",
     "license": "PHP License",
     "name": "pear/html_quickform",
