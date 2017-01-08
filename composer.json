@@ -45,7 +45,7 @@
     },
     "replace": {
         "pear-pear.php.net/HTML_QuickForm" : ">=3.2.13"
-    }
+    },
     "type": "library",
     "require": {
         "pear/pear_exception": "*",
