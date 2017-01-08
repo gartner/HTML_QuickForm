@@ -43,6 +43,9 @@
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_QuickForm",
         "source": "https://github.com/pear/HTML_QuickForm"
     },
+    "replace": {
+        "pear-pear.php.net/HTML_QuickForm" : ">=3.2.13"
+    }
     "type": "library",
     "require": {
         "pear/pear_exception": "*",
