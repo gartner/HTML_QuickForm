@@ -600,10 +600,16 @@ class HTML_QuickForm extends HTML_Common
                 $args[$i] = null;
             }
         }
-        $err = $elementObject->onQuickFormEvent($event, $args, $this);
+        if (!isset($this)) {
+            $caller = new HTML_QuickForm();
+        } else {
+            $caller = $this;
+        }
+        $err = $elementObject->onQuickFormEvent($event, $args, $caller);
         if ($err !== true) {
             return $err;
         }
+
         return $elementObject;
     } // end func _loadElement
 
